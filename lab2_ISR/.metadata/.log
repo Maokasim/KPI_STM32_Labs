@@ -1,0 +1,45 @@
+!SESSION 2025-11-29 09:02:39.737 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-29 09:03:42.530
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-29 09:03:42.531
+!MESSAGE Log4j2 initialized with config file C:\Users\maxta\Desktop\KPI\arm\lab2_ISR\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-29 09:03:53.012
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-29 09:06:56.937
+!MESSAGE Indexed 'lab2_ISR' (19 sources, 81 headers) in 2.47 sec: 4,314 declarations; 18,192 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-11-29 11:02:57.325
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2025-11-29 11:02:57.328
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-11-29 11:02:57.328
+!MESSAGE The project description file (.project) for 'lab2_ISR' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2025-11-29 11:06:23.112 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\maxta\Desktop\KPI\arm\lab2_ISR\lab2_ISR\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\maxta\Desktop\KPI\arm\lab2_ISR\lab2_ISR\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-29 11:06:31.887
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-29 11:06:31.887
+!MESSAGE Log4j2 initialized with config file C:\Users\maxta\Desktop\KPI\arm\lab2_ISR\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-29 11:06:41.354
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-29 11:06:42.909
+!MESSAGE Indexed 'lab2_ISR' (19 sources, 81 headers) in 1.42 sec: 4,329 declarations; 18,471 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0088%)

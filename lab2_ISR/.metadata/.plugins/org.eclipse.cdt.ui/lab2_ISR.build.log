@@ -1,0 +1,17 @@
+11:06:44 **** Incremental Build of configuration Debug for project lab2_ISR ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -IC:/Users/maxta/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/maxta/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/maxta/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/maxta/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "lab2_ISR.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\maxta\Desktop\KPI\arm\lab2_ISR\lab2_ISR\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab2_ISR.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: lab2_ISR.elf
+ 
+arm-none-eabi-size  lab2_ISR.elf 
+arm-none-eabi-objdump -h -S lab2_ISR.elf  > "lab2_ISR.list"
+   text	   data	    bss	    dec	    hex	filename
+   6300	     12	   1580	   7892	   1ed4	lab2_ISR.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab2_ISR.list
+ 
+
+11:06:44 Build Finished. 0 errors, 0 warnings. (took 676ms)
+
